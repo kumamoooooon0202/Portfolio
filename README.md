@@ -117,7 +117,7 @@
 
 ## UNDER HEAVEN
 
-<img src="doc/underheaven.png" width= "50%" height="50%">
+<img src="doc/underheaven.png" width= "80%" height="80%">
 <table style="width:80%">
   <tr>
     <td>制作期間</td> <td>2019.3 ~ 2020.2</td>
