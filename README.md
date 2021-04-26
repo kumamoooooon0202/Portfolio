@@ -76,7 +76,7 @@
 |       動画      | null |
 -->
 
-## World Of Symbols
+## 1.World Of Symbols
 <table style="width:80%">
   <tr>
     <td>制作期間</td> <td>2019.4 ~ 2019.9</td>
@@ -115,9 +115,9 @@
   </tr>
 </table>
 
-## UNDER HEAVEN
+## 2.UNDER HEAVEN
 
-<img src="doc/underheaven.png" width= "80%" height="80%">
+<img src="doc/underheaven.png" width= "75%" height="75%">
 <table style="width:80%">
   <tr>
     <td>制作期間</td> <td>2019.3 ~ 2020.2</td>
@@ -156,7 +156,7 @@
   </tr>
 </table>
 
-## 水墨鳥獣
+## 3.水墨鳥獣
 <table style="width:80%">
   <tr>
     <td>制作期間</td> <td>2020.5 ~ 2021.2</td>
@@ -195,7 +195,7 @@
   </tr>
 </table>
 
-## HoloJewelry ～煌めきからの脱出～
+## 4.HoloJewelry ～煌めきからの脱出～
 <table style="width:80%">
   <tr>
     <td>制作期間</td> <td>2020.5 ~ 2021.3</td>
@@ -234,7 +234,7 @@
   </tr>
 </table>
 
-## ColorChrome
+## 5.ColorChrome
 <table style="width:80%">
   <tr>
     <td>制作期間</td> <td>2021.4 ~ 制作中</td>
@@ -273,7 +273,7 @@
   </tr>
 </table>
 
-## フランケンシュタインの最果ての旅
+## 6.フランケンシュタインの最果ての旅
 <table style="width:80%">
   <tr>
     <td>制作期間</td> <td>2021.4 ~ 制作中</td>
