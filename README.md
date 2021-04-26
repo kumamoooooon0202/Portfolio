@@ -54,36 +54,26 @@
 | C++ | VisualStudio |
 | C# | Unity |
 | PHP | SQL |
-| VBA | Excel |
-| CSS | HTML |
 -->
 <table style="width:80%">
   <tr>
-    <th>aaa</th> <th>使用ツール</th>
+    <td>制作期間</td> <td>使用ツール</td>
   </tr>
 
   <tr>
-    <td>C</td> <td>VisualStudio</td>
+    <td>制作人数</td> <td>VisualStudio</td>
   </tr>
   
   <tr>
-    <td>C++</td> <td>VisualStudio</td>
+    <td>役職</td> <td>VisualStudio</td>
   </tr>
   
   <tr>
-    <td>C#</td> <td>Unity</td>
+    <td>ジャンル</td> <td>Unity</td>
   </tr>
   
   <tr>
-    <td>PHP</td> <td>SQL</td>
-  </tr>
-
-  <tr>
-    <td>VBA</td> <td>Excel</td>
-  </tr>
-  
-  <tr>
-    <td>CSS</td> <td>HTML</td>
+    <td>使用言語</td> <td>SQL</td>
   </tr>
 </table>
 
