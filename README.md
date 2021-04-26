@@ -21,27 +21,27 @@
   </tr>
 
   <tr>
-    <td>C</td> <td>VisualStudio</td> <td>2015.4 ~ 現在</td> <td>6年</td> <td>高校、専門学校の授業で学びました。</td>
+    <td>C</td> <td>VisualStudio</td> <td>2015.4 ~ 現在</td> <td align=center>6年</td> <td>高校、専門学校の授業で学びました。</td>
   </tr>
   
   <tr>
-    <td>C++</td> <td>VisualStudio</td> <td>2017.4 ~ 現在</td> <td>4年</td> <td>高校、専門学校の授業で学びました。</td>
+    <td>C++</td> <td>VisualStudio</td> <td>2017.4 ~ 現在</td> <td align=center>4年</td> <td>高校、専門学校の授業で学びました。</td>
   </tr>
   
   <tr>
-    <td>C#</td> <td>Unity</td> <td>2017.8 ~ 現在</td> <td>4年</td> <td>自主的に学び始め、専門学校の授業でも学びました。</td>
+    <td>C#</td> <td>Unity</td> <td>2017.8 ~ 現在</td> <td align=center>4年</td> <td>自主的に学び始め、専門学校の授業でも学びました。</td>
   </tr>
   
   <tr>
-    <td>PHP</td> <td>SQL</td> <td>2019.4 ~ 2020.3</td> <td>1年</td> <td>専門学校の授業で軽く学びました。</td>
+    <td>PHP</td> <td>SQL</td> <td>2019.4 ~ 2020.3</td> <td align=center>1年</td> <td>専門学校の授業で軽く学びました。</td>
   </tr>
 
   <tr>
-    <td>VBA</td> <td>Excel</td> <td>2017.4 ~ 2018.3</td> <td>1年</td> <td>高校の授業で軽く学びました。</td>
+    <td>VBA</td> <td>Excel</td> <td>2017.4 ~ 2018.3</td> <td align=center>1年</td> <td>高校の授業で軽く学びました。</td>
   </tr>
   
   <tr>
-    <td>CSS</td> <td>HTML</td> <td>2018.7 ~ 現在</td> <td>3年</td> <td>専門学校の授業で学び、今でも自主的に学んでいます。</td>
+    <td>CSS</td> <td>HTML</td> <td>2018.7 ~ 現在</td> <td align=center>3年</td> <td>専門学校の授業で学び、今でも自主的に学んでいます。</td>
   </tr>
 </table>
 
