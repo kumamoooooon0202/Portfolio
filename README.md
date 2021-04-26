@@ -71,6 +71,9 @@
 |     ジャンル    | null |
 | プラットフォーム | null |
 |     使用言語    | null |
+|      GutHub     | null |
+|   ソースコード   | null |
+|       動画      | null |
 -->
 
 ## World Of Symbols
@@ -98,9 +101,23 @@
   <tr>
     <td>使用言語</td> <td>Unity C#</td>
   </tr>
+  
+  <tr>
+    <td>GitHub</td> <td>準備中</td>
+  </tr>
+  
+  <tr>
+    <td>ソースコード</td> <td>準備中</td>
+  </tr>
+  
+  <tr>
+    <td>動画</td> <td>準備中</td>
+  </tr>
 </table>
 
 ## UNDER HEAVEN
+
+<img src="doc/underheaven.png" width= "50%" height="50%">
 <table style="width:80%">
   <tr>
     <td>制作期間</td> <td>2019.3 ~ 2020.2</td>
@@ -124,6 +141,18 @@
   
   <tr>
     <td>使用言語</td> <td>Unity C#</td>
+  </tr>
+  
+  <tr>
+    <td>GitHub</td> <td>準備中</td>
+  </tr>
+  
+  <tr>
+    <td>ソースコード</td> <td>準備中</td>
+  </tr>
+  
+  <tr>
+    <td>動画</td> <td>準備中</td>
   </tr>
 </table>
 
@@ -152,6 +181,18 @@
   <tr>
     <td>使用言語</td> <td>Unity C#</td>
   </tr>
+  
+  <tr>
+    <td>GitHub</td> <td>準備中</td>
+  </tr>
+  
+  <tr>
+    <td>ソースコード</td> <td>準備中</td>
+  </tr>
+  
+  <tr>
+    <td>動画</td> <td>準備中</td>
+  </tr>
 </table>
 
 ## HoloJewelry ～煌めきからの脱出～
@@ -178,6 +219,18 @@
   
   <tr>
     <td>使用言語</td> <td>Unity C#</td>
+  </tr>
+  
+  <tr>
+    <td>GitHub</td> <td>準備中</td>
+  </tr>
+  
+  <tr>
+    <td>ソースコード</td> <td>準備中</td>
+  </tr>
+  
+  <tr>
+    <td>動画</td> <td>準備中</td>
   </tr>
 </table>
 
@@ -206,6 +259,18 @@
   <tr>
     <td>使用言語</td> <td>Unity C#</td>
   </tr>
+  
+  <tr>
+    <td>GitHub</td> <td>準備中</td>
+  </tr>
+  
+  <tr>
+    <td>ソースコード</td> <td>準備中</td>
+  </tr>
+  
+  <tr>
+    <td>動画</td> <td>準備中</td>
+  </tr>
 </table>
 
 ## フランケンシュタインの最果ての旅
@@ -232,5 +297,17 @@
   
   <tr>
     <td>使用言語</td> <td>Unity C#</td>
+  </tr>
+  
+  <tr>
+    <td>GitHub</td> <td>準備中</td>
+  </tr>
+  
+  <tr>
+    <td>ソースコード</td> <td>準備中</td>
+  </tr>
+  
+  <tr>
+    <td>動画</td> <td>準備中</td>
   </tr>
 </table>
