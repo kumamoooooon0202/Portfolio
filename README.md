@@ -138,7 +138,7 @@
   </tr>
   
   <tr>
-    <td>役職</td> <td>プログラマーリーダー</td>
+    <td>役職</td> <td bgcolor=cyan>プログラマーリーダー</td>
   </tr>
   
   <tr>
