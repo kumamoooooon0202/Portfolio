@@ -47,73 +47,173 @@
 
 # 目次
 
-## World Of Symbols
 <!--
-| aaa | 使用ツール |
-| C | VisualStudio |
-| C++ | VisualStudio |
-| C# | Unity |
-| PHP | SQL |
+|     制作期間    | null |
+|     制作人数    | null |
+|       役職      | null |
+|     ジャンル    | null |
+| プラットフォーム | null |
+|     使用言語    | null |
 -->
+
+## World Of Symbols
 <table style="width:80%">
   <tr>
-    <td>制作期間</td> <td>使用ツール</td>
+    <td>制作期間</td> <td>2019.4 ~ 2019.9</td>
   </tr>
 
   <tr>
-    <td>制作人数</td> <td>VisualStudio</td>
+    <td>制作人数</td> <td>10人</td>
   </tr>
   
   <tr>
-    <td>役職</td> <td>VisualStudio</td>
+    <td>役職</td> <td>プログラマー</td>
   </tr>
   
   <tr>
-    <td>ジャンル</td> <td>Unity</td>
+    <td>ジャンル</td> <td>アクションRPG</td>
   </tr>
   
   <tr>
-    <td>使用言語</td> <td>SQL</td>
+    <td>プラットフォーム</td> <td>PC</td>
+  </tr>
+  
+  <tr>
+    <td>使用言語</td> <td>Unity C#</td>
   </tr>
 </table>
 
-* 制作期間：
-* 制作人数：
-* 役職：
-* ジャンル：
-* 使用言語：
-
 ## UNDER HEAVEN
-* 制作期間：
-* 制作人数：
-* 役職：
-* ジャンル：
-* 使用言語：
+<table style="width:80%">
+  <tr>
+    <td>制作期間</td> <td>2019.3 ~ 2020.2</td>
+  </tr>
+
+  <tr>
+    <td>制作人数</td> <td>18人</td>
+  </tr>
+  
+  <tr>
+    <td>役職</td> <td>プログラマー</td>
+  </tr>
+  
+  <tr>
+    <td>ジャンル</td> <td>アクションRPG</td>
+  </tr>
+  
+  <tr>
+    <td>プラットフォーム</td> <td>PC</td>
+  </tr>
+  
+  <tr>
+    <td>使用言語</td> <td>Unity C#</td>
+  </tr>
+</table>
 
 ## 水墨鳥獣
-* 制作期間：
-* 制作人数：
-* 役職：
-* ジャンル：
-* 使用言語：
+<table style="width:80%">
+  <tr>
+    <td>制作期間</td> <td>2020.5 ~ 2021.2</td>
+  </tr>
+
+  <tr>
+    <td>制作人数</td> <td>9人</td>
+  </tr>
+  
+  <tr>
+    <td>役職</td> <td>プログラマーリーダー</td>
+  </tr>
+  
+  <tr>
+    <td>ジャンル</td> <td>タワーディフェンス</td>
+  </tr>
+  
+  <tr>
+    <td>プラットフォーム</td> <td>タブレット</td>
+  </tr>
+  
+  <tr>
+    <td>使用言語</td> <td>Unity C#</td>
+  </tr>
+</table>
 
 ## HoloJewelry ～煌めきからの脱出～
-* 制作期間：
-* 制作人数：
-* 役職：
-* ジャンル：
-* 使用言語：
+<table style="width:80%">
+  <tr>
+    <td>制作期間</td> <td>2020.5 ~ 2021.3</td>
+  </tr>
+
+  <tr>
+    <td>制作人数</td> <td>8人</td>
+  </tr>
+  
+  <tr>
+    <td>役職</td> <td>プログラマー</td>
+  </tr>
+  
+  <tr>
+    <td>ジャンル</td> <td>体験型脱出MRゲーム</td>
+  </tr>
+  
+  <tr>
+    <td>プラットフォーム</td> <td>HoloLens2</td>
+  </tr>
+  
+  <tr>
+    <td>使用言語</td> <td>Unity C#</td>
+  </tr>
+</table>
 
 ## ColorChrome
-* 制作期間：
-* 制作人数：
-* 役職：
-* ジャンル：
-* 使用言語：
+<table style="width:80%">
+  <tr>
+    <td>制作期間</td> <td>2021.4 ~ 制作中</td>
+  </tr>
+
+  <tr>
+    <td>制作人数</td> <td>18人</td>
+  </tr>
+  
+  <tr>
+    <td>役職</td> <td>プログラマー</td>
+  </tr>
+  
+  <tr>
+    <td>ジャンル</td> <td>アクションRPG</td>
+  </tr>
+  
+  <tr>
+    <td>プラットフォーム</td> <td>PC</td>
+  </tr>
+  
+  <tr>
+    <td>使用言語</td> <td>Unity C#</td>
+  </tr>
+</table>
 
 ## フランケンシュタインの最果ての旅
-* 制作期間：
-* 制作人数：
-* 役職：
-* ジャンル：
-* 使用言語：
+<table style="width:80%">
+  <tr>
+    <td>制作期間</td> <td>2021.4 ~ 制作中</td>
+  </tr>
+
+  <tr>
+    <td>制作人数</td> <td>13人</td>
+  </tr>
+  
+  <tr>
+    <td>役職</td> <td>プログラマー</td>
+  </tr>
+  
+  <tr>
+    <td>ジャンル</td> <td>RPG</td>
+  </tr>
+  
+  <tr>
+    <td>プラットフォーム</td> <td>PC</td>
+  </tr>
+  
+  <tr>
+    <td>使用言語</td> <td>Unity C#</td>
+  </tr>
+</table>
