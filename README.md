@@ -144,7 +144,7 @@
   </tr>
   
   <tr>
-    <td>GitHub</td> <td>準備中</td>
+    <td>GitHub</td> <td>非公開</td>
   </tr>
   
   <tr>
@@ -224,11 +224,11 @@
   </tr>
   
   <tr>
-    <td>GitHub</td> <td>準備中</td>
+    <td>GitHub</td> <td>非公開</td>
   </tr>
   
   <tr>
-    <td>ソースコード</td> <td>準備中</td>
+    <td>ソースコード</td> <td>非公開</td>
   </tr>
   
   <tr>
@@ -267,7 +267,7 @@
   </tr>
   
   <tr>
-    <td>ソースコード</td> <td>準備中</td>
+    <td>ソースコード</td> <td>制作中</td>
   </tr>
   
   <tr>
@@ -306,7 +306,7 @@
   </tr>
   
   <tr>
-    <td>ソースコード</td> <td>準備中</td>
+    <td>ソースコード</td> <td>制作中</td>
   </tr>
   
   <tr>
