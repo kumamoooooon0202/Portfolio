@@ -103,7 +103,7 @@
   </tr>
   
   <tr>
-    <td>GitHub</td> <td>準備中</td>
+    <td>GitHub</td> <td><a href="https://github.com/mamanju/WorldOfSymbols">GitHubはこちら</a></td>
   </tr>
   
   <tr>
