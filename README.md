@@ -157,6 +157,8 @@
 </table>
 
 ## 3.水墨鳥獣
+
+<img src="doc/rabbitfrog.png" width= "75%" height="75%">
 <table style="width:80%">
   <tr>
     <td>制作期間</td> <td>2020.5 ~ 2021.2</td>
