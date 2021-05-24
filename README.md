@@ -263,7 +263,7 @@
   </tr>
   
   <tr>
-    <td>GitHub</td> <td>準備中</td>
+    <td>GitHub</td> <td>非公開</td>
   </tr>
   
   <tr>
@@ -271,7 +271,7 @@
   </tr>
   
   <tr>
-    <td>動画</td> <td>準備中</td>
+    <td>動画</td> <td>制作中</td>
   </tr>
 </table>
 
@@ -302,7 +302,7 @@
   </tr>
   
   <tr>
-    <td>GitHub</td> <td>準備中</td>
+    <td>GitHub</td> <td><a href="https://github.com/kannaduki2000/Frankenstein">GitHubはこちら</a></td>
   </tr>
   
   <tr>
@@ -310,6 +310,6 @@
   </tr>
   
   <tr>
-    <td>動画</td> <td>準備中</td>
+    <td>動画</td> <td>制作中</td>
   </tr>
 </table>
