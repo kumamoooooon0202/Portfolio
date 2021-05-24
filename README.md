@@ -185,7 +185,7 @@
   </tr>
   
   <tr>
-    <td>GitHub</td> <td>準備中</td>
+    <td>GitHub</td> <td>https://github.com/kumamoooooon0202/RabbitFrog.git</td>
   </tr>
   
   <tr>
