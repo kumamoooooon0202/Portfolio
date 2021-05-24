@@ -185,7 +185,7 @@
   </tr>
   
   <tr>
-    <td>GitHub</td> <td>https://github.com/kumamoooooon0202/RabbitFrog.git</td>
+    <td>GitHub</td> <td><a href="https://github.com/kumamoooooon0202/RabbitFrog.git">GitHubはこちら</a></td>
   </tr>
   
   <tr>
