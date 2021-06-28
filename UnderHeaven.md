@@ -40,3 +40,83 @@
 ## フリーバトルシーン全般
 <img src="doc/underheaven_free.png" width= "75%" height="75%">
 <img src="doc/underheaven_freebattle.png" width= "75%" height="75%">
+
+### 押した時の番号を参照してEnemyを生成
+```csharp
+    public void OnClickCreateEnemy()
+    {
+        // 敵の生成
+        if (dataflag)
+        {
+            UpdateCreateEnemy();
+        }
+
+        // Enemyの削除
+        if (dataflag == false)
+        {
+            foreach (var enemy in createEnemyList)
+            {
+                AIManager.DeleteEnemy(enemy);
+            }
+
+            // 敵を削除したらすべてのFlagをfalse
+            for (int i = 0; i < maxCount; i++)
+            {
+                dataflag = false;
+                dataNums = 0;
+                enemyCount[i] = null;
+            }
+            createEnemyList.Clear();
+        }
+    }
+```
+
+### 敵の生成をし、カウントをする処理
+```csharp
+    private void CreateEnemy()
+    {
+        data.CreateEnemyInit();
+        createEnemyList.Add(AIManager.Instance.EnemyClasses[AIManager.Instance.EnemyClasses.Count - 1]);
+        for (int i = 0; i < maxCount; i++)
+        {
+            if (enemyCount[i] == null)
+            {
+                enemyCount[i] = AIManager.Instance.EnemyClasses[AIManager.Instance.EnemyClasses.Count - 1];
+                break;
+            }
+        }
+    }
+```
+
+### 死んだ敵がいたら値を減らす処理
+```csharp
+    private void DeathEnemyCount()
+    {
+        for (int i = 0; i < maxCount; i++)
+        {
+            if (enemyCount[i] != null)
+            {
+                if (enemyCount[i].IsDeath)
+                {
+                    dataNums--;
+                    enemyCount[i] = null;
+                }
+            }
+        }
+    }
+```
+
+### 一定間隔で敵の生成
+```csharp
+    private void UpdateCreateEnemy()
+    {
+        if (dataNums >= maxCount) return;
+        interval += Time.unscaledDeltaTime;
+        if (interval >= createInterval)
+        {
+            interval = 0f;
+            CreateEnemy();
+            dataNums++;
+        }
+    }
+```
