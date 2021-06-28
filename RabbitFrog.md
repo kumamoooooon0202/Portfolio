@@ -36,8 +36,6 @@
 </table>
 
 # 主な作業内容
-
-## キャラクター周り全般
 ## 編成画面
 <img src="doc/rabbitfrog_deck.png" width= "75%" height="75%">
 * おすすめ編成を押すたびに編成が更新される
