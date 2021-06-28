@@ -40,6 +40,7 @@
 ## キャラクター周り全般
 ## 編成画面
 <img src="doc/rabbitfrog_deck.png" width= "75%" height="75%">
+* おすすめ編成を押すたびに編成が更新される
 
 ### 設定した編成を反映する処理
 ```csharp
@@ -85,7 +86,10 @@ public class AutoDeckSet : MonoBehaviour
 }
 ```
 
+
+
 <img src="doc/rabbitfrog_deck_move.png" width= "75%" height="75%">
+* ドラッグをすると複製元オブジェクトは半透明にし、離すと元の状態に戻す
 
 ### ドラッグしたオブジェクトの複製
 ```csharp
@@ -158,6 +162,11 @@ public class AutoDeckSet : MonoBehaviour
 ```
 
 ## デッキ編成関連
+
+<img src="doc/rabbitfrog_battle_random1.png" width= "75%" height="75%">
+<img src="doc/rabbitfrog_battle_random2.png" width= "75%" height="75%">
+* バトルシーンに入る度にデッキがシャッフルされる
+
 ### デッキのシャッフル機能
 ```csharp
 private void DeckShuffle()
@@ -175,6 +184,9 @@ private void DeckShuffle()
         }
     }
 ```
+
+
+<img src="doc/rabbitfrog_battle_create.png" width= "75%" height="75%">
 
 ### キャラクターの召喚処理
 ```csharp
