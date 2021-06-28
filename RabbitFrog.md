@@ -39,7 +39,7 @@
 
 ## キャラクター周り全般
 ## 編成画面
-<img src="doc/rabbitfrog_title_deck.png" width= "75%" height="75%">
+<img src="doc/rabbitfrog_deck.png" width= "75%" height="75%">
 
 ### 設定した編成を反映する処理
 ```csharp
@@ -85,7 +85,8 @@ public class AutoDeckSet : MonoBehaviour
 }
 ```
 
-<img src="doc/rabbitfrog_title.png" width= "75%" height="75%">
+<img src="doc/rabbitfrog_deck_move.png" width= "75%" height="75%">
+
 ### ドラッグしたオブジェクトの複製
 ```csharp
     /// <summary>
