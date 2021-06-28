@@ -39,3 +39,59 @@
 
 ## キャラクター周り全般
 ## 編成画面
+### 設定した編成を反映する処理
+```csharp
+[System.Serializable]
+public class AutoDeckArray
+{
+    [Header("自動セットしたいカード")]
+    public CardPoolObject[] autoSet = new CardPoolObject[8];
+}
+```
+
+```csharp
+public class AutoDeckSet : MonoBehaviour
+{
+    private int deckNumber = 0;
+    private int countUpDeckNumber
+    { 
+        get
+        {
+            deckNumber++;
+            if (autoDeckArray.Length <= deckNumber) { deckNumber = 0; }
+            return deckNumber;
+        }
+    }
+    [SerializeField] private Image deckImage = null;
+    [SerializeField] private Sprite[] deckSetImages = new Sprite[4];
+    [SerializeField] private GameObject[] decks = new GameObject[8];
+    [Header("おすすめ編成のパターン")] public AutoDeckArray[] autoDeckArray;
+    
+    public void AutoSetDeck()
+    {
+        for(int i = 0; i < decks.Length; i++)
+        {
+            var deck = decks[i].GetComponent<DeckObject>();
+            deck.cardPoolObject = autoDeckArray[deckNumber].autoSet[i];
+            deck.iconImage.sprite = decks[i].GetComponent<DeckObject>().cardPoolObject.character.image;
+            deck.characterIconImage.sprite = decks[i].GetComponent<DeckObject>().cardPoolObject.character.characteristicIcon;
+            deck.costText.text = decks[i].GetComponent<DeckObject>().cardPoolObject.character.cost.ToString();
+            deck.nowSprite = decks[i].GetComponent<DeckObject>().iconImage.sprite;
+        }
+        deckImage.sprite = deckSetImages[countUpDeckNumber];
+    }
+}
+```
+
+```csharp
+
+```
+
+```csharp
+
+```
+
+```csharp
+
+```
+
