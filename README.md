@@ -198,6 +198,8 @@
 </table>
 
 ## 4.HoloJewelry ～煌めきからの脱出～
+
+<img src="doc/HoloLens_Logo.png" width= "75%" height="75%">
 <table style="width:80%">
   <tr>
     <td>制作期間</td> <td>2020.5 ~ 2021.3</td>
