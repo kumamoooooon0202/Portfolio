@@ -232,7 +232,7 @@
   </tr>
   
   <tr>
-    <td>動画</td> <td><a href="https://youtu.be/h6OG0eIbWyk">動画はこちら</a></td>
+    <td>動画</td> <td><a href="https://youtu.be/h6OG0eIbWyk">YouTube</a></td>
   </tr>
 </table>
 
