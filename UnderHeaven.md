@@ -38,3 +38,5 @@
 
 # 主な仕事
 ## フリーバトルシーン全般
+<img src="doc/underheaven_free.png" width= "75%" height="75%">
+<img src="doc/underheaven_freebattle.png" width= "75%" height="75%">
