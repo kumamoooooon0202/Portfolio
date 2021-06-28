@@ -39,9 +39,10 @@
 # 主な仕事
 ## フリーバトルシーン全般
 <img src="doc/underheaven_free.png" width= "75%" height="75%">
-<img src="doc/underheaven_freebattle.png" width= "75%" height="75%">
 
 ### 押した時の番号を参照してEnemyを生成
+<img src="doc/underheaven_freebattle.png" width= "75%" height="75%">
+
 ```csharp
     public void OnClickCreateEnemy()
     {
@@ -72,6 +73,10 @@
 ```
 
 ### 敵の生成をし、カウントをする処理
+<img src="doc/underheaven_free_zoko.png" width= "75%" height="75%">
+<img src="doc/underheaven_free_create_zoko.png" width= "75%" height="75%">
+<img src="doc/underheaven_free_create_zoko3.png" width= "75%" height="75%">
+
 ```csharp
     private void CreateEnemy()
     {
