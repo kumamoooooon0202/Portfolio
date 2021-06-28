@@ -83,6 +83,76 @@ public class AutoDeckSet : MonoBehaviour
 }
 ```
 
+### ドラッグしたオブジェクトの複製
+```csharp
+    /// <summary>
+    /// ドラッグしたオブジェクトの複製
+    /// </summary>
+    private void CreateDragObject()
+    {
+        Vector3 mousePos = Input.mousePosition;
+        dragObject = new GameObject("DragObject");
+        dragObject.transform.SetParent(parentObject);
+        dragObject.transform.SetAsLastSibling();
+        dragObject.transform.localPosition = mousePos;
+        dragObject.transform.localScale = Vector3.one;
+
+        CanvasGroup canvasGroup = dragObject.AddComponent<CanvasGroup>();
+        canvasGroup.blocksRaycasts = false;
+
+        Image dragImage = dragObject.AddComponent<Image>();
+        Image souceImage = GetComponent<CardPoolObject>().characterImage;
+
+        dragImage.sprite = souceImage.sprite;
+        dragImage.rectTransform.sizeDelta = souceImage.rectTransform.sizeDelta;
+        dragImage.color = souceImage.color;
+        dragImage.material = souceImage.material;
+        dragImage.preserveAspect = true;
+
+        // 複製時元オブジェクトを半透明にする
+        characterImage.GetComponent<Image>().color = Vector4.one * 0.6f;
+    }
+```
+
+### ドラッグしたオブジェクトの追従
+```csharp
+    /// <summary>
+    /// ドラッグ開始時
+    /// </summary>
+    /// <param name="pointerEventData"></param>
+    public void OnBeginDrag(PointerEventData pointerEventData)
+    {
+        CreateDragObject();
+        dragObject.transform.position = GetMousePosition();
+        audioSource.PlayOneShot(dragSE);
+    }
+
+    /// <summary>
+    /// ドラッグ中
+    /// </summary>
+    /// <param name="pointerEventData"></param>
+    public void OnDrag(PointerEventData pointerEventData)
+    {
+        dragObject.transform.position = GetMousePosition();
+    }
+
+    /// <summary>
+    /// ドラッグ終了時
+    /// </summary>
+    /// <param name="pointerEventData"></param>
+    public void OnEndDrag(PointerEventData pointerEventData)
+    {
+        characterImage.GetComponent<Image>().color = Vector4.one;
+        Destroy(dragObject);
+    }
+```
+
+
+
+```csharp
+
+```
+
 ## デッキ編成関連
 ### デッキのシャッフル機能
 ```csharp
