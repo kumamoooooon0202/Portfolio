@@ -83,12 +83,71 @@ public class AutoDeckSet : MonoBehaviour
 }
 ```
 
+## デッキ編成関連
+### デッキのシャッフル機能
 ```csharp
-
+private void DeckShuffle()
+    {
+        int shuffleVal = 0;
+        while (shuffleVal <= 30)
+        {
+            int randomVal1 = Random.Range(0, DeckManager.deckObjects.Length);
+            int randomVal2 = Random.Range(0, DeckManager.deckObjects.Length);
+            
+            var temp = DeckManager.deckObjects[randomVal1];
+            DeckManager.deckObjects[randomVal1] = DeckManager.deckObjects[randomVal2];
+            DeckManager.deckObjects[randomVal2] = temp;
+            shuffleVal++;
+        }
+    }
 ```
 
+### キャラクターの召喚処理
 ```csharp
+public void CharacterSummon(Vector3 summonPos, int myHandNumber)
+    {
+        var deckObj = DeckManager.deckObjects[myHandNumber];
+        var cost = deckObj.cardPoolObject.character.cost;
+        var myCardType = deckObj.cardPoolObject.character.myCardType;
 
+        if (battleController.SummonGageVal - cost < 0) { return; }
+        battleController.SummonGageVal -= cost;
+
+        int summonVal = deckObj.cardPoolObject.character.summonVol; 
+        // 召喚
+        for(int i = 0; i < summonVal; i++)
+        {
+            // 召喚数が2以上なら複数召喚
+            if (summonVal > 1)
+            {
+                float randomPos_x = Random.Range(minRandomPos_x, maxRandomPos_x);
+                float randomPos_y = Random.Range(minRandomPos_y, maxRandomPos_y);
+                summonPos.x = summonPos.x + randomPos_x;
+                summonPos.y = summonPos.y + randomPos_y;
+            }
+            var character = Instantiate(createCharacterList[(int)myCardType], summonPos, Quaternion.identity);
+            battleController.characterList.Add(character);
+        }
+
+        // 召喚したカードの情報を一時格納
+        var myHand = DeckManager.deckObjects[myHandNumber];
+        // 次手札から補充
+        DeckManager.deckObjects[myHandNumber] = DeckManager.deckObjects[4];
+        // 画像を次手札から参照
+        handObjects[myHandNumber].GetComponent<Image>().sprite = nextHand.GetComponent<Image>().sprite;
+        // 画像を次手札から参照した後、Cost更新
+        text[myHandNumber].text = "" + DeckManager.deckObjects[myHandNumber].cardPoolObject.character.cost;
+        _handBackGround[myHandNumber].cost = DeckManager.deckObjects[myHandNumber].cardPoolObject.character.cost;
+        // アイコンの更新
+        characterIconImage[myHandNumber].sprite = DeckManager.deckObjects[myHandNumber].cardPoolObject.character.characteristicIcon;
+        // デッキのリストからランダムに次手札に補充
+        int randomHandInt = Random.Range(5, DeckManager.deckObjects.Length);
+        DeckManager.deckObjects[4] = DeckManager.deckObjects[randomHandInt];
+        // 次手札の画像の設定
+        nextHand.GetComponent<Image>().sprite = DeckManager.deckObjects[4].iconImage.sprite;
+        // 補充した枠に召喚したカードの情報を入れる
+        DeckManager.deckObjects[randomHandInt] = myHand;
+    }
 ```
 
 ```csharp
