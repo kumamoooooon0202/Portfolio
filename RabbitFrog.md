@@ -1,6 +1,6 @@
 # 水墨鳥獣
 
-<img src="doc/rabbitfrog.png" width= "75%" height="75%">
+<img src="doc/rabbitfrog_title.png" width= "75%" height="75%">
 <table style="width:80%">
   <tr>
     <td>制作期間</td> <td>2020.5 ~ 2021.2</td>
@@ -39,6 +39,8 @@
 
 ## キャラクター周り全般
 ## 編成画面
+<img src="doc/rabbitfrog_title_deck.png" width= "75%" height="75%">
+
 ### 設定した編成を反映する処理
 ```csharp
 [System.Serializable]
@@ -83,6 +85,7 @@ public class AutoDeckSet : MonoBehaviour
 }
 ```
 
+<img src="doc/rabbitfrog_title.png" width= "75%" height="75%">
 ### ドラッグしたオブジェクトの複製
 ```csharp
     /// <summary>
