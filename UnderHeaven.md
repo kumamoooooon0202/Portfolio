@@ -38,7 +38,23 @@
 
 # 主な仕事
 ## フリーバトルシーン全般
+<table style="width:80%">
+  <tr>
+    <td>制作期間</td> <td>3週間</td>
+  </tr>
+
+  <tr>
+    <td>制作人数</td> <td>1人</td>
+  </tr>
+  
+  <tr>
+    <td>使用言語</td> <td>Unity C#</td>
+  </tr>
+</table>
+
 <img src="doc/underheaven_free.png" width= "75%" height="75%">
+
+
 
 ### 押した時の番号を参照してEnemyを生成
 <img src="doc/underheaven_freebattle.png" width= "75%" height="75%">
