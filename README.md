@@ -148,7 +148,7 @@
   </tr>
   
   <tr>
-    <td>ソースコード</td> <td><a href="./UnderHeaven.html">準備中</a></td>
+    <td>ソースコード</td> <td><a href="./UnderHeaven.html">こちら</a></td>
   </tr>
   
   <tr>
@@ -189,7 +189,7 @@
   </tr>
   
   <tr>
-    <td>ソースコード</td> <td><a href="RabbitFrog.html">準備中</a></td>
+    <td>ソースコード</td> <td><a href="RabbitFrog.html">こちら</a></td>
   </tr>
   
   <tr>
