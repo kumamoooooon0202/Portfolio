@@ -145,6 +145,7 @@
 ```
 ## Editor拡張
 ### Enemyの行動ルートの可視化
+<img src="doc/underheaven_enemy_root.png" width= "75%" height="75%">
 
 <table style="width:80%">
   <tr>
