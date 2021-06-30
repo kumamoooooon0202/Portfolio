@@ -37,10 +37,13 @@
 
 # 主な作業内容
 ## 編成画面
+### おすすめ編成
 <img src="doc/rabbitfrog_deck.png" width= "75%" height="75%">
-* おすすめ編成を押すたびに編成が更新される
 
-### 設定した編成を反映する処理
+* おすすめ編成を押すたびに編成が更新される
+* 現在のおすすめ編成が何なのかがわかりにくいので「現在の編成」などの表示をつけてわかりやすく改善するべきでした
+
+
 ```csharp
 [System.Serializable]
 public class AutoDeckArray
@@ -85,11 +88,12 @@ public class AutoDeckSet : MonoBehaviour
 ```
 
 
-
+### ドラッグしたオブジェクトの複製
 <img src="doc/rabbitfrog_deck_move.png" width= "75%" height="75%">
+
 * ドラッグをすると複製元オブジェクトは半透明にし、離すと元の状態に戻す
 
-### ドラッグしたオブジェクトの複製
+
 ```csharp
     /// <summary>
     /// ドラッグしたオブジェクトの複製
@@ -160,12 +164,13 @@ public class AutoDeckSet : MonoBehaviour
 ```
 
 ## デッキ編成関連
+### デッキのシャッフル機能
 
 <img src="doc/rabbitfrog_battle_random1.png" width= "75%" height="75%">
 <img src="doc/rabbitfrog_battle_random2.png" width= "75%" height="75%">
+
 * バトルシーンに入る度にデッキがシャッフルされる
 
-### デッキのシャッフル機能
 ```csharp
 private void DeckShuffle()
     {
@@ -183,10 +188,11 @@ private void DeckShuffle()
     }
 ```
 
-
+### キャラクターの召喚処理
 <img src="doc/rabbitfrog_battle_create.png" width= "75%" height="75%">
 
-### キャラクターの召喚処理
+* 現在のコストと召喚コストを比較して手札の背景に召喚までのメーターをつけることで分かりやすくしました
+
 ```csharp
 public void CharacterSummon(Vector3 summonPos, int myHandNumber)
     {
