@@ -141,3 +141,75 @@
         }
     }
 ```
+
+## Enemyの行動ルートの可視化
+
+```csharp
+private void OnSceneGUI()
+    {
+        
+        //routeを表示する
+        serializedObject.Update();
+        SerializedProperty enemyRoute = serializedObject.FindProperty("enemyRoute");
+        Vector3 createPosition = enemyRoute.FindPropertyRelative("createPosition").vector3Value;
+        if (Selection.transforms == null || Selection.transforms.Length == 0) { return; }
+        enemyRoute.FindPropertyRelative("createPosition").vector3Value = PositionHandle(createPosition, HandleUtility.GetHandleSize(Vector3.zero) * 0.5f,Selection.transforms[0].position);
+        int size = enemyRoute.FindPropertyRelative("routes.Array.size").intValue;
+        SerializedProperty routeDatas = enemyRoute.FindPropertyRelative("routes");
+        for (int i = 0; i < size; i++)
+        {
+            SerializedProperty point = routeDatas.GetArrayElementAtIndex(i);
+            //ルートを編集するためのボタンを作成
+            float boxSize = HandleUtility.GetHandleSize(buttonSize) * 0.5f;
+            if (boxSize >= 1.5f)
+            {                
+                if(Handles.Button(point.vector3Value + Selection.transforms[0].position, Quaternion.identity, 1.5f,1.5f, Handles.CubeHandleCap))
+                {
+                    selectIndex = i;
+                }
+            }
+            else if(Handles.Button(point.vector3Value + Selection.transforms[0].position, Quaternion.identity, boxSize, boxSize, Handles.CubeHandleCap))
+            {
+                selectIndex = i;
+            }
+        }
+
+        if (selectIndex >= 0)
+        {
+            SerializedProperty point = routeDatas.GetArrayElementAtIndex(selectIndex);
+            point.vector3Value = PositionHandle(point.vector3Value, HandleUtility.GetHandleSize(Vector3.zero) * 0.5f,Selection.transforms[0].position);
+        }
+        
+        //移動経路の表示
+        for (int i = 0; i < size; i++)
+        {
+            int goalIndex = i + 1;
+            if (goalIndex == size)
+            {
+                goalIndex = 0;
+            }
+            Vector3 startPosition = routeDatas.GetArrayElementAtIndex(i).vector3Value + Selection.transforms[0].position;
+            Vector3 goalPosition = routeDatas.GetArrayElementAtIndex(goalIndex).vector3Value + Selection.transforms[0].position;
+            Handles.DrawLine(startPosition,goalPosition);
+        }
+        serializedObject.ApplyModifiedProperties();
+    }
+    
+    private Vector3 PositionHandle(Vector3 transform, float size, Vector3 offset)
+    {
+        var position = offset + transform;
+
+        //X 軸
+        Handles.color = Handles.xAxisColor;
+        position = Handles.Slider(position, Vector3.right, size, Handles.ArrowHandleCap, 0.2f);
+
+        //Y 軸
+        Handles.color = Handles.yAxisColor;
+        position = Handles.Slider(position, Vector3.up, size, Handles.ArrowHandleCap, 0.2f);
+
+        //Z 軸
+        Handles.color = Handles.zAxisColor;
+        position = Handles.Slider(position, Vector3.forward, size, Handles.ArrowHandleCap, 0.2f);
+        return position - offset;
+    }
+```
