@@ -40,7 +40,7 @@
 ## フリーバトルシーン全般
 <table style="width:80%">
   <tr>
-    <td>制作期間</td> <td>3週間</td>
+    <td>制作期間</td> <td>4週間</td>
   </tr>
 
   <tr>
@@ -58,6 +58,8 @@
 
 ### 押した時の番号を参照してEnemyを生成
 <img src="doc/underheaven_freebattle.png" width= "75%" height="75%">
+
+* ユーザーが操作していてストレスを感じないように上下キーのみだったところを左右キーでもカーソルを動くようにもしました
 
 ```csharp
     public void OnClickCreateEnemy()
@@ -141,8 +143,24 @@
         }
     }
 ```
+## Editor拡張
+### Enemyの行動ルートの可視化
 
-## Enemyの行動ルートの可視化
+<table style="width:80%">
+  <tr>
+    <td>制作期間</td> <td>3週間</td>
+  </tr>
+
+  <tr>
+    <td>制作人数</td> <td>1人</td>
+  </tr>
+  
+  <tr>
+    <td>使用言語</td> <td>Unity C#</td>
+  </tr>
+</table>
+
+* シーンビューでも行動ルートを触れるように設計しました
 
 ```csharp
 private void OnSceneGUI()
