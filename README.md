@@ -193,7 +193,7 @@
   </tr>
   
   <tr>
-    <td>動画</td> <td>準備中</td>
+    <td>動画</td> <td><a href="https://youtu.be/4whyZkYZL0k">YouTube</a></td>
   </tr>
 </table>
 
