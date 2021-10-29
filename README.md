@@ -278,6 +278,7 @@
 </table>
 
 ## 6.フランケンシュタインの最果ての旅
+<img src="doc/Frankenstein_Logo.png" width= "75%" height="75%">
 <table style="width:80%">
   <tr>
     <td>制作期間</td> <td>2021.4 ~ 制作中</td>
