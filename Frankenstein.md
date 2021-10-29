@@ -3,11 +3,11 @@
 <img src="doc/Frankenstein_Logo.png" width= "75%" height="75%">
 <table style="width:80%">
   <tr>
-    <td>制作期間</td> <td>2019.3 ~ 2020.2</td>
+    <td>制作期間</td> <td>2021.4 ~ 2021.9</td>
   </tr>
 
   <tr>
-    <td>制作人数</td> <td>人</td>
+    <td>制作人数</td> <td>12人</td>
   </tr>
   
   <tr>
@@ -15,11 +15,11 @@
   </tr>
   
   <tr>
-    <td>ジャンル</td> <td></td>
+    <td>ジャンル</td>2Dスクロール謎解きアクション<td></td>
   </tr>
   
   <tr>
-    <td>プラットフォーム</td> <td></td>
+    <td>プラットフォーム</td>PC<td></td>
   </tr>
   
   <tr>
@@ -27,7 +27,7 @@
   </tr>
   
   <tr>
-    <td>GitHub</td> <td></td>
+    <td>GitHub</td> <td><a href="https://github.com/kannaduki2000/TravelFrankenstein">GitHubはこちら</a></td>
   </tr>
   
   <tr>
