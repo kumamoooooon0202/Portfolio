@@ -163,6 +163,7 @@ public EventFlag AddFlag(EventFlagName flagName)
 
 ## 電気を入れるオブジェクトの親クラスの作成
 * 親クラスに必要な要素をまとめ、子クラスが継承した際に参照しやすいように制作しました
+
 ```
 public class ElectricItem : MonoBehaviour
 {
