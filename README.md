@@ -309,7 +309,7 @@
   </tr>
   
   <tr>
-    <td>GitHub</td> <td><a href="https://github.com/kannaduki2000/Frankenstein">GitHubはこちら</a></td>
+    <td>GitHub</td> <td><a href="https://github.com/kannaduki2000/TravelFrankenstein">GitHubはこちら</a></td>
   </tr>
   
   <tr>
