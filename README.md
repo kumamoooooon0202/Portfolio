@@ -76,6 +76,8 @@
 |       動画      | null |
 -->
 
+
+<!--
 ## 1.World Of Symbols
 <table style="width:80%">
   <tr>
@@ -107,15 +109,17 @@
   </tr>
   
   <tr>
-    <td>ソースコード</td> <td><a href="WorldOfSymbols.html">準備中</a></td>
+    <td>ソースコード</td> <td>準備中</td>
   </tr>
   
   <tr>
     <td>動画</td> <td>準備中</td>
   </tr>
 </table>
+-->
 
-## 2.UNDER HEAVEN
+
+## 1.UNDER HEAVEN
 
 <img src="doc/underheaven.png" width= "75%" height="75%">
 <table style="width:80%">
@@ -156,7 +160,7 @@
   </tr>
 </table>
 
-## 3.水墨鳥獣
+## 2.水墨鳥獣
 
 <img src="doc/rabbitfrog.png" width= "75%" height="75%">
 <table style="width:80%">
@@ -197,7 +201,7 @@
   </tr>
 </table>
 
-## 4.HoloJewelry ～煌めきからの脱出～
+## 3.HoloJewelry ～煌めきからの脱出～
 
 <img src="doc/HoloLens_Logo.png" width= "75%" height="75%">
 <table style="width:80%">
@@ -238,7 +242,7 @@
   </tr>
 </table>
 
-## 5.ColorChrome
+## 4.ColorChrome
 <table style="width:80%">
   <tr>
     <td>制作期間</td> <td>2021.4 ~ 制作中</td>
@@ -277,7 +281,7 @@
   </tr>
 </table>
 
-## 6.フランケンシュタインの最果ての旅
+## 5.フランケンシュタインの最果ての旅
 <img src="doc/Frankenstein_Logo.png" width= "75%" height="75%">
 <table style="width:80%">
   <tr>
